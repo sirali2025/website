@@ -11,6 +11,14 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 text-center">
         <div className="space-y-8 animate-fade-in-up">
+          <div className="flex justify-center mb-8">
+            <img
+              src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
+              alt="AKS for AI"
+              className="h-32 w-32 object-contain animate-float"
+            />
+          </div>
+
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-black leading-tight tracking-tight">
             Multiply Your Sales &<br />
             <span className="gradient-text">Productivity with AI</span>
