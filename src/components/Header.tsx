@@ -33,7 +33,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <img
-              src="/ChatGPT Image 21 oct. 2025, 01_11_27.png"
+              src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
               alt="AKS for AI"
               className="h-12 w-12 object-contain"
             />

@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <img
-                src="/ChatGPT Image 21 oct. 2025, 01_11_27.png"
+                src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
                 alt="AKS for AI"
                 className="h-10 w-10 object-contain brightness-0 invert"
               />

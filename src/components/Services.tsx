@@ -162,7 +162,7 @@ export default function Services() {
               </p>
 
               <div className="flex items-center justify-between text-orange-500 font-semibold">
-                <span className="text-sm">Learn more &lt;</span>
+                <span className="text-sm">Learn more</span>
                 <ChevronDown
                   className={`w-5 h-5 transition-transform duration-300 ${
                     expandedIndex === index ? 'rotate-180' : ''
