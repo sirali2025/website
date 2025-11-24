@@ -43,10 +43,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Company</h3>
             <ul className="space-y-3 text-gray-400">
+              <li><a href="#pricing" className="hover:text-orange-500 transition-colors">Pricing Models</a></li>
               <li><a href="#hosting" className="hover:text-orange-500 transition-colors">Hosting Options</a></li>
               <li><a href="#contact" className="hover:text-orange-500 transition-colors">Contact Us</a></li>
               <li><a href="#" className="hover:text-orange-500 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-orange-500 transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>

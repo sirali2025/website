@@ -42,6 +42,7 @@ export default function Header() {
 
           <nav className="hidden lg:flex items-center gap-8">
             <button onClick={() => scrollToSection('services')} className="nav-link">Services</button>
+            <button onClick={() => scrollToSection('pricing')} className="nav-link">Pricing</button>
             <button onClick={() => scrollToSection('hosting')} className="nav-link">Hosting</button>
             <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
             <button className="gradient-button px-8 py-3 rounded-full text-white font-semibold shadow-lg hover:shadow-orange-500/50 transition-all duration-300">
@@ -60,6 +61,7 @@ export default function Header() {
         {isMobileMenuOpen && (
           <nav className="lg:hidden mt-6 pb-6 space-y-4 animate-fade-in">
             <button onClick={() => scrollToSection('services')} className="block w-full text-left nav-link py-2">Services</button>
+            <button onClick={() => scrollToSection('pricing')} className="block w-full text-left nav-link py-2">Pricing</button>
             <button onClick={() => scrollToSection('hosting')} className="block w-full text-left nav-link py-2">Hosting</button>
             <button onClick={() => scrollToSection('contact')} className="block w-full text-left nav-link py-2">Contact</button>
             <button className="w-full gradient-button px-8 py-3 rounded-full text-white font-semibold shadow-lg">
