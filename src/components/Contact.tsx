@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Send, Mail, MessageSquare } from 'lucide-react';
+import { Send, Mail, MessageSquare, ArrowRight } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -62,8 +62,9 @@ export default function Contact() {
                   <p className="text-gray-600">
                     Chat with our team in real-time for immediate assistance
                   </p>
-                  <button className="text-orange-600 font-semibold hover:text-orange-700 transition-colors">
-                    Start chatting →
+                  <button className="text-orange-600 font-semibold hover:text-orange-700 transition-colors flex items-center gap-2 group">
+                    Start chatting
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                   </button>
                 </div>
               </div>

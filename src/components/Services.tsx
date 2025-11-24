@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Handshake, ShoppingCart, MessageCircle, BarChart3, Settings, PenTool, Target, Sparkles, ChevronDown } from 'lucide-react';
+import { Handshake, ShoppingCart, MessageCircle, BarChart3, Settings, PenTool, Target, Sparkles, ChevronDown, ArrowRight } from 'lucide-react';
 
 interface Service {
   icon: React.ReactNode;
@@ -162,7 +162,10 @@ export default function Services() {
               </p>
 
               <div className="flex items-center justify-between text-orange-500 font-semibold">
-                <span className="text-sm">Learn more</span>
+                <span className="text-sm flex items-center gap-2">
+                  Learn More
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
+                </span>
                 <ChevronDown
                   className={`w-5 h-5 transition-transform duration-300 ${
                     expandedIndex === index ? 'rotate-180' : ''
