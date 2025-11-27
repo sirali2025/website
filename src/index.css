@@ -135,6 +135,14 @@
     @apply w-full;
   }
 
+  .nav-link.active {
+    @apply text-orange-500;
+  }
+
+  .nav-link.active::after {
+    @apply w-full;
+  }
+
   .service-card {
     @apply transform hover:-translate-y-2;
   }

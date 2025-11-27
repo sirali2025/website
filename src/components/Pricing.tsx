@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Clock, Briefcase, BarChart3, TrendingDown, TrendingUp, Zap, Layers, Activity, ChevronDown, ArrowRight, X } from 'lucide-react';
+import { Clock, Briefcase, BarChart3, TrendingDown, TrendingUp, Zap, Layers, Activity, ArrowRight, X } from 'lucide-react';
 
 interface PricingModel {
   icon: React.ReactNode;
