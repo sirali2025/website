@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-6 group">
               <img
-                src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
+                src="/logo.svg"
                 alt="AKS for AI"
                 className="h-10 w-10 object-contain brightness-0 invert group-hover:scale-110 transition-transform duration-300"
               />
@@ -64,7 +64,7 @@ export default function Footer() {
                 <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
               </a>
               <a
-                href="mailto:hello@aksforai.com"
+                href="mailto:aks.ai.strategic.partner@gmail.com"
                 className="social-icon group"
                 aria-label="Email"
               >

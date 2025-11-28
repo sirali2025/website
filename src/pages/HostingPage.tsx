@@ -173,12 +173,6 @@ export default function HostingPage() {
                   ))}
                 </ul>
 
-                <div className="border-t-2 border-gray-200 pt-6">
-                  <p className="text-2xl font-bold gradient-text mb-4">{option.price}</p>
-                  <button className="w-full py-3 px-6 bg-black text-white font-semibold rounded-xl hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-600 transition-all duration-300">
-                    Get Started
-                  </button>
-                </div>
               </motion.div>
             ))}
           </div>
@@ -213,46 +207,6 @@ export default function HostingPage() {
                   <p className="text-gray-600 text-sm">
                     {feature.description}
                   </p>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="mb-20"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-black mb-12 text-center">
-              Maintenance <span className="gradient-text">Plans</span>
-            </h2>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              {maintenancePlans.map((plan, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 50 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-gray-200"
-                >
-                  <h3 className="text-2xl font-bold text-black mb-2">{plan.name}</h3>
-                  <div className="flex items-baseline gap-1 mb-6">
-                    <span className="text-4xl font-bold gradient-text">{plan.price}</span>
-                    <span className="text-gray-600">{plan.period}</span>
-                  </div>
-
-                  <ul className="space-y-3">
-                    {plan.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start gap-3 text-gray-700">
-                        <span className="text-orange-500 mt-1">✓</span>
-                        <span className="text-sm">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
                 </motion.div>
               ))}
             </div>

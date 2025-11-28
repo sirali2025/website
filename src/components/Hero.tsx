@@ -1,4 +1,4 @@
-import { ArrowRight, Calendar, Sparkles, Zap, TrendingUp } from 'lucide-react';
+import { ArrowRight, Sparkles, Zap, TrendingUp } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Hero() {
@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="flex justify-center mb-8">
             <div className={`logo-reveal ${isLogoRevealed ? 'revealed' : ''}`}>
               <img
-                src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
+                src="/logo.svg"
                 alt="AKS for AI"
                 className="h-32 w-32 object-contain"
               />
@@ -95,11 +95,6 @@ export default function Hero() {
             <button className="group cta-button gradient-button px-10 py-5 rounded-full text-white font-semibold text-lg flex items-center gap-3 shadow-2xl hover:shadow-orange-500/50 transition-all duration-300">
               Get Started
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </button>
-
-            <button className="secondary-button px-10 py-5 rounded-full text-black font-semibold text-lg border-2 border-black hover:bg-black hover:text-white transition-all duration-300 flex items-center gap-3">
-              <Calendar className="w-5 h-5" />
-              Schedule a Demo
             </button>
           </div>
         </div>
