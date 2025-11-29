@@ -312,7 +312,7 @@ const pricingModels: PricingModel[] = [
       'Lower setup cost',
       'Balanced risk for both sides'
     ],
-    gradient: 'from-red-700 to-red-600',
+    gradient: 'from-orange-700 to-orange-600',
     modalDetails: {
       title: 'Hybrid Pricing Explained',
       content: [
@@ -359,7 +359,7 @@ const pricingModels: PricingModel[] = [
       'Scales with usage',
       'Transparent execution logs'
     ],
-    gradient: 'from-red-600 to-orange-600',
+    gradient: 'from-orange-600 to-orange-700',
     modalDetails: {
       title: 'Usage-Based Pricing Explained',
       content: [
@@ -442,7 +442,7 @@ function PricingModal({ model, isOpen, onClose }: ModalProps) {
               <ul className="space-y-3">
                 {section.items.map((item, itemIdx) => (
                   <li key={itemIdx} className="flex items-start gap-3 text-gray-700">
-                    <span className="text-orange-500 mt-1 font-bold">→</span>
+                    <span className="text-orange-500 mt-0.5"><svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg></span>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -478,7 +478,7 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pricingModels.map((model, index) => (
             <div
               key={index}

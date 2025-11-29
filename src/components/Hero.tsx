@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="flex justify-center mb-8">
             <div className={`logo-reveal ${isLogoRevealed ? 'revealed' : ''}`}>
               <img
-                src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
+                src="/ChatGPT_Image_22_oct._2025__15_51_16-removebg-preview.png"
                 alt="AKS for AI"
                 className="h-32 w-32 object-contain"
               />
