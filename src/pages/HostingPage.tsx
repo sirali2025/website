@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { Cloud, Server, Shield, Lock, HardDrive, RefreshCw, Activity } from 'lucide-react';
 
 const pageTransition = {
@@ -121,6 +122,8 @@ const maintenancePlans = [
 ];
 
 export default function HostingPage() {
+  const navigate = useNavigate();
+
   return (
     <motion.div {...pageTransition}>
       <section className="pt-32 pb-20 bg-gradient-to-b from-white via-gray-50 to-white">
@@ -239,7 +242,10 @@ export default function HostingPage() {
             <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
               We can design a hosting solution tailored to your specific requirements, compliance needs, and budget.
             </p>
-            <button className="gradient-button px-10 py-4 rounded-full text-white font-semibold text-lg shadow-xl hover:shadow-orange-500/50 transition-all duration-300">
+            <button
+              onClick={() => navigate('/contact')}
+              className="gradient-button px-10 py-4 rounded-full text-white font-semibold text-lg shadow-xl hover:shadow-orange-500/50 transition-all duration-300"
+            >
               Discuss Your Needs
             </button>
           </motion.div>

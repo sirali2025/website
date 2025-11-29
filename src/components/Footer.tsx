@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-6 group">
               <img
-                src="/logo.svg"
+                src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
                 alt="AKS for AI"
                 className="h-10 w-10 object-contain brightness-0 invert group-hover:scale-110 transition-transform duration-300"
               />

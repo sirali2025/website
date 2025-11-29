@@ -33,7 +33,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 cursor-pointer group">
             <img
-              src="/logo.svg"
+              src="/ChatGPT Image 22 oct. 2025, 15_51_16.png"
               alt="AKS for AI"
               className="h-12 w-12 object-contain transform group-hover:scale-110 transition-transform duration-300"
             />
