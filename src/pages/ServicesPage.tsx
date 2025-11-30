@@ -174,8 +174,9 @@ export default function ServicesPage() {
                   {service.shortDescription}
                 </p>
 
-                <button className="text-orange-500 font-semibold hover:text-orange-600 transition-colors duration-300">
+                <button className="text-orange-500 font-semibold hover:text-orange-600 transition-colors duration-300 flex items-center gap-2">
                   Learn More
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </button>
               </motion.div>
             ))}

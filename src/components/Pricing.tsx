@@ -166,7 +166,7 @@ const pricingModels: PricingModel[] = [
       'You pay a percentage of the total cost reduction',
       'Savings are calculated clearly before starting'
     ],
-    example: 'If automation saves $40,000/year → client pays 10–25% of the saved amount',
+    example: 'If automation saves $40,000/year - client pays 10–25% of the saved amount',
     gradient: 'from-orange-700 to-orange-800',
     modalDetails: {
       title: 'Cost-Saving Pricing Explained',
@@ -197,9 +197,9 @@ const pricingModels: PricingModel[] = [
         {
           title: 'Real-World Examples',
           items: [
-            'Data entry: Saves 40 hours/month = $2,000 savings → you pay $200-500/month',
-            'Manual approval process: Saves $60,000/year → you pay $6,000-15,000/year',
-            'Customer service: Saves 100 hours/month = $5,000 → you pay $500-1,250/month'
+            'Data entry: Saves 40 hours/month = $2,000 savings - you pay $200-500/month',
+            'Manual approval process: Saves $60,000/year - you pay $6,000-15,000/year',
+            'Customer service: Saves 100 hours/month = $5,000 - you pay $500-1,250/month'
           ]
         }
       ]
